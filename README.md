@@ -1,8 +1,5 @@
 # Banc de mémoire
 
-![image](https://github.com/yoboujon/memory_file/assets/80280962/2ebe1960-2c3f-4cb3-9127-4cbc40e2bcab)
-
-
 Architecture contenant deux mémoires : une mémoire pour les données et une mémoire pour les instructions.
 - **Entrées/Sorties :**
   - Entrées :
@@ -31,3 +28,8 @@ Architecture contenant deux mémoires : une mémoire pour les données et une m�
   - Le programme à exécuter par le microprocesseur est stocké dans cette mémoire au préalable.
   - À l'exécution, toute modification du contenu de cette mémoire est empêchée.
   - La lecture se fait synchrone avec l'horloge `CLK`.
+ 
+
+
+    ![image-removebg-preview](https://github.com/yoboujon/memory_file/assets/80280962/16b2cba7-9bc8-497b-a628-b5c782b92be1)
+
