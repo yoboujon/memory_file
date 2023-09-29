@@ -29,7 +29,3 @@ Architecture contenant deux mémoires : une mémoire pour les données et une m�
   - À l'exécution, toute modification du contenu de cette mémoire est empêchée.
   - La lecture se fait synchrone avec l'horloge `CLK`.
  
-
-
-    ![image-removebg-preview](https://github.com/yoboujon/memory_file/assets/80280962/16b2cba7-9bc8-497b-a628-b5c782b92be1)
-
