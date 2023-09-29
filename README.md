@@ -1,6 +1,9 @@
 # Banc de mémoire
 
-Architecture contenant deux mémoires : une mémoire pour les données et une mémoire pour les instructions. Leur structure est présentée dans la figure 5.
+![image](https://github.com/yoboujon/memory_file/assets/80280962/2ebe1960-2c3f-4cb3-9127-4cbc40e2bcab)
+
+
+Architecture contenant deux mémoires : une mémoire pour les données et une mémoire pour les instructions.
 - **Entrées/Sorties :**
   - Entrées :
     - `@A(3:0)` : Adresse de la mémoire des données (4 bits).
