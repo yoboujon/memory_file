@@ -1,5 +1,8 @@
 # Banc de mémoire
 
+  ![image](https://github.com/yoboujon/memory_file/assets/80280962/a9fc3fba-c9fc-4597-b7a3-30122237c86f)
+
+  
 Architecture contenant deux mémoires : une mémoire pour les données et une mémoire pour les instructions.
 - **Entrées/Sorties :**
   - Entrées :
