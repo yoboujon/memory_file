@@ -11,7 +11,7 @@ architecture bench of test_instr is
   component instruction is
     port(
       instruction:  in  STD_LOGIC_VECTOR(7 downto 0);
-      code:         in STD_LOGIC_VECTOR(31 downto 0);
+      code:         out STD_LOGIC_VECTOR(31 downto 0);
       clk:          in  STD_LOGIC
     );
   end component;
@@ -24,6 +24,8 @@ architecture bench of test_instr is
   
 begin
     testeur: instruction PORT MAP(inAddress, outCode, inClock);
+    inClock <= not inClock after 1ns;
     
+    inAddress <= X"00", X"0a" after 10ns;
 
 end bench;
