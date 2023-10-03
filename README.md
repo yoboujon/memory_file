@@ -31,4 +31,4 @@ Architecture contenant deux mémoires : une mémoire pour les données et une m�
   - Le programme à exécuter par le microprocesseur est stocké dans cette mémoire au préalable.
   - À l'exécution, toute modification du contenu de cette mémoire est empêchée.
   - La lecture se fait synchrone avec l'horloge `CLK`.
- 
+
